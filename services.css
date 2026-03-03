@@ -101,6 +101,36 @@ header {
     align-items: center;
    
 }
+
+/* TOOLTIP */
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    border: solid 1px black;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+.tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+  }
+
 .img1 {
     width: 100px;
     height: 100px;
@@ -209,7 +239,6 @@ footer {
 }
 .button {
     background-color: #31cd0a;
-    color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 15px;
@@ -218,7 +247,11 @@ footer {
     font-family: 'Times New Roman', Times, serif;
     margin: 20px;
     width: fit-content;
-}   
+} 
+.button a{
+    text-decoration: none;
+    color: #fff;
+}  
 .button:hover {
     background-color: #facc15;
 }
@@ -241,4 +274,15 @@ footer {
 }
 .button:disabled:focus {
     box-shadow: none;
+}
+
+.products button {
+    margin: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    width: fit-content;
 }
