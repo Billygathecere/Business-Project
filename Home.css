@@ -8,6 +8,40 @@ body{
      background-size: cover;
      background-blend-mode: overlay;
      height: 100vh;
+     margin: auto;
+     box-sizing: border-box;
+}
+
+.card{
+    margin: 50px 100px;
+    background-image: radial-gradient(circle, white, skyblue);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.mid-section{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Hero section */
+.hero{
+    margin: 0 0 20px 20px;
+    display: flex;
+    border-radius: 30px;
+    transition: ease-in-out;
+}
+
+.hero img{
+    border-radius: 30px;
+    width: 500px;
+    height: 600px;
 }
 
 .begining{
