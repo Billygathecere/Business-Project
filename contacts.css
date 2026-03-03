@@ -1,0 +1,215 @@
+body {
+    background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29udGFjdHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    background: red;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.nav ul li{
+    margin: 15px;
+}
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav ul li a:hover {
+   color: #facc15;
+}
+header img{
+    padding: 10px;
+    width: 200px;
+}
+header {
+    background: linear-gradient(to right, #8787e7, #5a5ae7);
+    color: #fff;
+    padding: 20px 40px;
+    border-radius: 80px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 150px;
+}
+
+.paragraph {
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.form-container {
+    background: rgba(20, 7, 7, 0.1);
+    margin-bottom: 20px;
+    margin-left: 300px;
+    margin-top: 80px;
+    padding: 40px;
+    border-radius: 15px;
+    width: 380px;
+    height: 640px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(1, 250, 250, 0.3)
+}
+
+h2 {
+    color: #000;
+    margin-bottom: 20px;
+    text-align: center;
+}
+h1{
+    margin-bottom: 20px;
+    text-align: center;
+    color: #000;
+}
+
+/*password section*/
+
+input {
+    font-family: monospace;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    padding-right: 4rem;
+    letter-spacing: 0.1ch;
+    border-radius: 6px;
+    color: var(--color-alpha);
+    border-color: var(--color-alpha);
+    border-style: solid;
+    background: var(--input-bg);
+    outline: none;
+    transition: border-color 0.2s, color 0.2s;
+    
+}
+.label {
+    font-family: monospace;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    padding-right: 4rem;
+    letter-spacing: 0.1ch;
+    border-radius: 6px;
+    color: var(--color-alpha);
+    border-color: var(--color-alpha);
+    border-style: solid;
+    background: var(--input-bg);
+    outline: none;
+    transition: border-color 0.2s, color 0.2s;
+}
+
+
+.input-box {
+    position: relative;
+    margin: 20px 0;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 15px 18px;
+    background: none;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 18px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    transition: 0.4s;
+}
+
+.input-box input:focus {
+    border-color: #00ffff;
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
+}
+
+.input-box span {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    color: rgba(6, 231, 18, 0.5);
+    font-size: 14px;
+    pointer-events: none;
+    transition: translateY(-50%);
+}
+
+.input-box input:focus+span,
+.input-box input:not(:placeholder-shown)+span {
+    top: 5px;
+    font-size: 10px;
+    color: #00ffff;
+}
+
+.submit-btn {
+    background: linear-gradient(90deg, #a4e60a, #00ff80);
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-top: 10px;
+}
+
+.submit-btn:hover {
+    background: linear-gradient(90deg, #00ff80, #00ffff);
+    box-shadow: 0 5px 15px #00ffff80;
+}
+
+.submit-btn::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 10px;
+    background: linear-gradient(150deg, #ff006e, #8400ff, #00ff85, #ffd500, #ff006e);
+    background-size: 500%;
+    z-index: -1;
+    filter: blur(40px);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.submit-btn:hover::before {
+    opacity: 1;
+}
+/* SOCIALS */
+
+.socials{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.fa-brands{
+    font-size: 30px;
+    color: rgb(17, 7, 128);
+    transition: ease-out 2s;
+}
+
+.fa-brands:hover{
+    color: rgb(59, 244, 13);
+}
+
+.fa-instagram{
+    color: rgb(214, 80, 103);
+}
+
+.fa-linkedin{
+    color: rgb(18, 18, 233);
+}
+
+.fa-facebook{
+    color: rgb(17, 7, 128);
+}   
+
+.fa-twitter{
+    color: rgb(48, 178, 221);
+}

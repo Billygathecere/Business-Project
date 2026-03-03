@@ -1,0 +1,97 @@
+body{
+    background-image: linear-gradient(to top, white, grey);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* FORM */
+
+form{
+    height: 900px;
+    width: 600px;
+    background-color: transparent;
+    border: black 5px solid;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+
+label{
+    font-family: 'Saira Condensed';
+    font-weight: bold;
+    color: green;
+    display: block;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* BUTTON */
+
+button{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(118, 13, 203);
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 300px;
+    font-size: 20px;
+}
+
+/* SOCIALS */
+.socials{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5px;
+    font-size: 30px;
+}
+.fa-brands{
+    transition: ease-out 2s;
+}
+
+.fa-brands:hover{
+    color: rgb(8, 3, 66);
+}
+.fa-twitter{
+    color: rgb(5, 161, 196)
+}
+.fa-facebook{
+    color: rgb(11, 97, 209);
+}
+.fa-likedin{
+    color: rgb(60, 78, 216);
+}
+.fa-instagram{
+    color: rgb(214, 80, 103);
+}
+
+/* NAVIGATION */
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav li{
+    list-style-type: none;
+}
+
+.nav a{
+    font-size: 20px;
+    font-weight: bold;
+}

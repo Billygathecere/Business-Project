@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Favicon link -->
+    <link rel="icon" type="image/x-icon" href="./Images/Logo design for Medivance.webp">
+    <!-- CSS link -->
+    <link rel="stylesheet" href="purchase.css">
+    <!-- Font Awesome link -->
+    <script src="https://kit.fontawesome.com/1d68a8fcd4.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PURCHASE</title>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+     <div class="nav">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="purchase.html">Purchase</a>
+     </div>
+     <section class="main-card">
+    <!-- Payment Method section -->
+    <div class="method">
+        <h1>Payment Method</h1>
+        <p>How would you like to pay?</p>
+        <div class="card">
+            <label for="visa">
+                <input type="radio" name="payment" id="visa">
+                <i class="fa-brands fa-cc-visa"></i>
+            </label>
+            <label for="mastercard">
+                <input type="radio" name="payment" id="mastercard">
+                <i class="fa-brands fa-cc-mastercard"></i>
+            </label>
+            <label for="paypal">
+                <input type="radio" name="payment" id="paypal">
+                <i class="fa-brands fa-cc-paypal"></i>
+            </label>
+            <label for="credit-card">
+                <input type="radio" name="payment" id="credit-card">
+                <i class="fa-solid fa-credit-card"></i>
+            </label>
+        </div>
+    </div>
+
+    <!-- Payment form section -->
+    <form>
+        <label for="card-number">Card Number:
+            <input type="text" name="card-number" placeholder="Card Number" required>
+        </label>
+        <br>
+        <label for="card-name">Card Holder Name:
+            <input type="text" name="card-name" placeholder="Card Holder Name" required>
+        </label>
+        <br>
+        <label for="expiry-date">Expiry Date:
+            <input type="text" name="expiry-date" placeholder="Expiry Date" required>
+        </label>
+        <br>
+        <label for="cvv">CVV:
+            <input type="text" name="cvv" placeholder="CVV" required>
+        </label>
+        <br>
+        <button type="submit">Pay Now</button>
+        <footer>
+            <div class="socials">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div class="help">
+                <a href="Contact.html">Contact</a>
+                <a href="About.html">About</a>
+            </div>
+        </footer>
+    </form>
+    </section>
+</body>
+
+</html>
