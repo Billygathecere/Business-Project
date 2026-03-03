@@ -1,0 +1,168 @@
+body{
+    background-image: linear-gradient(245deg, white, rgb(79, 95, 196));
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    position: sticky;
+}
+
+.nav a{
+    color: white;
+    font-size: 20px;
+    padding: 0 20px;
+}
+
+.nav a:hover{
+    color: black;
+}
+/* Card */
+.main-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 10px;
+    width: 1000px;
+    height: 600px;
+}
+
+
+/* Left side */
+/* Payment card */
+.method{
+    background-color: transparent;
+    padding: 20px;
+    width: 700px;
+    height: 300px;
+    margin-right: 20px;
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card i{
+   font-size: 80px;
+   color: black;
+}
+
+.card .fa-cc-visa{
+    color: rgb(60, 9, 243);
+}
+.card .fa-cc-mastercard{
+    color: red;
+}
+.card .fa-cc-paypal{
+    color: rgb(39, 21, 241);
+}
+.card .fa-credit-card{
+    color: rgb(21, 241, 146);
+}
+
+.card label{
+    display: flex;
+    padding: 0 10px;
+}
+
+/* Right side */
+form{
+    border: solid black 2px ;
+    background-color: transparent;
+    padding: 20px;
+    width: 800px;
+    height: 600px;
+    margin-left: 20px;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+form label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+}
+
+form input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 250px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/* Socials */
+.socials{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-left: 85px;
+}
+
+.socials i{
+    font-size: 30px;
+    padding: 0 10px;
+}
+
+.fa-instagram{
+    color: rgb(214, 80, 103);
+}
+.fa-linkedin{
+    color: rgb(58, 58, 119);
+}
+.fa-facebook{
+    color: rgb(17, 7, 128);     
+}
+
+.fa-brands{
+    transition: ease-out 0.5s;  
+}
+
+.fa-brands:hover{
+    color: rgb(7, 157, 82);
+}
+
+/* Help Section */
+.help{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.help a{
+        padding: 10px 0;
+}
