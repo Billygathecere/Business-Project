@@ -2,19 +2,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Caveat:wght@400..700&family=Commissioner:wght@100..900&family=Cookie&family=Creepster&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Federant&family=Fjalla+One&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Gloria+Hallelujah&family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Pacifico&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+IN+Guides&family=Playwrite+NZ+Basic:wght@100..400&family=Playwrite+NZ:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Shadows+Into+Light&family=Smooch+Sans:wght@100..900&family=Syne:wght@400..800&family=Tapestry&family=Titan+One&display=swap');
 
 
+/* Arimo font link */
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Arimo:ital,wght@0,400..700;1,400..700&family=Caveat:wght@400..700&family=Commissioner:wght@100..900&family=Cookie&family=Creepster&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Federant&family=Fjalla+One&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Gloria+Hallelujah&family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Pacifico&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+IN+Guides&family=Playwrite+NZ+Basic:wght@100..400&family=Playwrite+NZ:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Shadows+Into+Light&family=Smooch+Sans:wght@100..900&family=Syne:wght@400..800&family=Tapestry&family=Titan+One&display=swap');
+
+
 body{
-     background-image: url('../Images/a fully furnished surgical room- for service page.webp');
+     background-image: url('./Images/a fully furnished surgical room- for service page.webp');
      background-repeat: no-repeat;
      background-size: cover;
-     background-blend-mode: overlay;
-     height: 100vh;
-     margin: auto;
-     box-sizing: border-box;
 }
 
 .card{
     margin: 50px 100px;
-    background-image: radial-gradient(circle, white, rgb(141, 214, 243,0.3), rgb(50, 50, 224, 0.1));
+    background-image: radial-gradient(circle, white, rgb(141, 214, 243,0.5), rgb(50, 50, 224, 0.5));
     border-radius: 30px;
     display: flex;
     flex-direction: column;
@@ -90,7 +91,39 @@ header{
 }
 
 .nav a{
-    text-decoration: none;
+    color: rgb(4, 51, 240);
+}
+
+.nav a:hover{
+    color: black;
+}
+
+/* INTRO TEXT */
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 30px;
+}
+
+.intro h1{
+    color: black;
+    font-size: 50px;
+    font-family: 'Roboto Condensed', sans-serif ;
+}
+
+.intro p{
+    color: rgb(125, 94, 94);
+    font-size: 40px;
+    font-family: 'Arimo', sans-serif ;
+}
+
+strong{
+    color: rgb(20, 35, 237);
+    font-size: 40px;
+    font-family: 'Arimo', sans-serif ;
 }
 
 /* ACCOLADES */
@@ -320,3 +353,75 @@ header{
     animation-play-state: paused;
 }
 
+/* FOOTER */
+footer{
+    background-color: rgb(29, 29, 29, 0.5);
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* SOCIALS */
+
+.socials{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.socials i{
+    margin: 0 10px;
+    font-size: 30px;
+}
+
+.fa-brands{
+    transition: ease-in-out 0.5s;
+}
+
+.fa-brands:hover{
+    color: rgb(59, 244, 13);
+}
+
+.fa-instagram{
+    color: pink;
+}
+
+.fa-facebook{
+    color: skyblue;
+}
+
+.fa-twitter{
+    color: skyblue;
+}
+
+.fa-linkedin{
+    color: skyblue;
+}
+
+/* Links */
+.links ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 25px;
+}
+
+.links li{
+    list-style-type: none;
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Arimo', sans-serif;
+    transition: ease-in-out 0.5s;
+}
+
+.links a:hover{
+    color: rgb(27, 168, 168);
+}
