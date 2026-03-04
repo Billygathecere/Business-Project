@@ -14,7 +14,7 @@ body{
 
 .card{
     margin: 50px 100px;
-    background-image: radial-gradient(circle, white, skyblue);
+    background-image: radial-gradient(circle, white, rgb(141, 214, 243,0.3), rgb(50, 50, 224, 0.1));
     border-radius: 30px;
     display: flex;
     flex-direction: column;
@@ -153,32 +153,48 @@ header{
     padding: 20px;
     width: 300px;
     border-radius: 20px;
-    background-color: grey;
+    background-color: rgb(145, 143, 143, 0.4);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 10px 20px;
 }
 
 .second{
+    padding: 20px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: rgb(145, 143, 143, 0.4);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 10px 20px;
 }
 
 .third{
+    padding: 20px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: rgb(145, 143, 143, 0.4);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 10px 20px;
 }
 
 .fourth{
+    padding: 20px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: rgb(145, 143, 143, 0.4);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 10px 20px;
 }
 /* TOOLTIP */
 .tooltip {
