@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../Images/a fully furnished surgical room- for service page.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    color: aquawhite;
+}
+.navbar{
+    width: 90%;
+    margin-top: 30px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 15px rgba(0, 200, 255, 0.4);
+    margin: 20px auto;
+    border-radius: 50px;
+}
+.nav-links{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+}
+.nav-links{
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.nav-links a:hover{
+    background: rgba(0, 200, 255, 0.2);
+    transform: scale(1.2);
+    box-shadow: 0 0 10px cyan,
+                0 0 20px cyan
+                0 0 30px cyan;
+}
+.nav-links a{
+    text-decoration: none;
+    font-size: 18px;
+    text-shadow: 0 0 5px cyan,
+                 0 0 10px cyan,
+                 0 0 20px cyan;
+    transition: 0.3s;
+}
+.card{
+    width: 60%;
+    margin: 80px auto;
+    padding: 40px;
+    color: antiquewhite;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255,0.1);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.4);
+    transition: 0.4s;
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.8);
+}
+.card h1{
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: orangered;
+}
+.card p{
+    font-size: 18px;
+    line-height: 1.6;
+    color: navy;
+}
+footer{
+    background: transparent;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    padding: 40px 0;
+    margin-top: 50px;
+}
+footer h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #00eaff;
+}
+.socials{
+    margin-top: 20px;
+}
+.socials a{
+    color: rgb(89, 238, 4);
+    font-size: 28px;
+    margin: 0 15px;
+    transition: 0.4s;
+}
+.socials a:hover{
+    color: #00eaff;
+    text-shadow: 
+    0 0 10px #00eaff,
+    0 0 20px #00eaff,
+    0 0 40px #00eaff;
+    transform: translateY(-8px);
+}
+.socials a{
+    animation: float 3s ease-in-out infinite;
+}
+@keyframes float{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
