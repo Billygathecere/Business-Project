@@ -225,9 +225,10 @@ body{
 }
 
 .multiple img{
-    padding: 0px 20px;
-    width: 200px;
-    height: 200px;
+    padding: 0px;
+    width: 28vh;
+    height: 28vh;
+
     border-radius: 20px;
     overflow: hidden;
 }
@@ -239,7 +240,7 @@ body{
 
 /* Understatements */
 .nblue{
-    padding: 10px;
+    padding: 0px;
     background-color: white;
     border-radius: 20px;
     margin: 0px 10px;
@@ -248,7 +249,10 @@ body{
 .navy{
     padding: 10px;
     background-color: white;
-    border-radius: 20px;
+    border-bottom: solid 2px black;
+    width: 23vh;
+    margin-bottom: 10px;
+    margin-left: 16px;
 }
 
 .navy span{
@@ -267,7 +271,7 @@ body{
 }
 
 .dblue{
-    padding: 10px;
+    padding: 0px;
     background-color: white;
     border-radius: 20px;
     margin: 0px 10px;
@@ -277,7 +281,11 @@ body{
 .sky{
     padding: 10px;
     background-color: white;
-    border-radius: 20px;
+    margin-bottom: 10px;
+    width: 23vh;
+    margin-left: 15px;
+    /* border-radius: 20px; */
+    border-bottom: 2px solid black;
 }
 
 .sky span{
@@ -295,7 +303,7 @@ body{
 }
 
 .snow{
-    padding: 10px;
+    padding: 0px;
     background-color: white;
     border-radius: 20px;
     margin: 0px 10px;
@@ -304,6 +312,18 @@ body{
 .snow span{
     font-size: 30px;
     font-weight: 600;
+}
+
+.snow .span3{
+    margin-top: -40px;
+}
+
+.snow1{
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    width: 23vh;
 }
 
 .span3{
@@ -318,7 +338,8 @@ body{
 .cart{
     display: flex;
     justify-content: space-between;
-    padding: 0px 20px;
+    padding: 10px 30px;
+    margin-top: 20px;
 }
 
 .cart .buttonf{
